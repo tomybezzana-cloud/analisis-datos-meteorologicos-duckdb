@@ -1,0 +1,10 @@
+# CSV de NOAA (~24 MB) y el Parquet de la comparación: los genera el script
+data/
+
+# Archivos de base de datos de DuckDB: el análisis usa una base en memoria
+*.duckdb
+*.duckdb.wal
+
+__pycache__/
+*.pyc
+.venv/
